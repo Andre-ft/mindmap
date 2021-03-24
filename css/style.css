@@ -56,8 +56,14 @@ h3 {
 
 ul {
   text-decoration-skip: none;
+}
+
+li {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 24px;
-  font-weight: 700;
+  line-height: 27px;
 }
 
 img {
