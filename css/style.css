@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  overflow: hidden;
+  width: 1071px;
+  height: 30px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  /* text-align: center; */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  /* text-align: center; */
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.list {
+  margin: 0 auto;
+  color: darkslategray;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: cadetblue;
+}
+
+h3 {
+  margin: 0;
+  padding: 0 5px;
+}
+
+.logo-bug {
+  color: green;
+}
+
+.logo-busters {
+  color: darkslategray;
+}
+
+ul {
+  text-decoration-skip: none;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+
+.img-magnifier-container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 150px;
+  height: 150px;
+}
